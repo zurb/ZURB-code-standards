@@ -50,3 +50,11 @@
 - JavaScript is always intercapped, so capitalize dat S.
 - Don't refer to JavaScript as "JS".
 - Like with Sass, refer to the properties of functions as *parameters*.
+
+## Callouts
+
+Use the `.callout` pattern to highlight important information for developers. Use these colors for specific uses:
+
+- `.primary`: tips and tricks, external links
+- `.warning`: usage warnings, caveats
+- `.alert`: known issues, deprecation notices
