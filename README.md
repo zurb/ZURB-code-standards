@@ -7,12 +7,12 @@ This collection of standards informs how we build the Foundation family. ZURBian
 ### General
 
 - **[Libraries](libraries.md):** The open source projects that make up the Foundation family.
-- **[Components](components.md):** Naming components and structuring files.
-- **[Documentation](documentation.md):** Language for referring to the various elements of HTML, CSS, and JavaScript.
 - **[GitHub](github.md):** Files to include in every GitHub repo.
+- **[Documentation](documentation.md):** Language for referring to the various elements of HTML, CSS, and JavaScript.
 
 ### Code
 
+- **[Components](components.md):** Naming components and structuring files.
 - **[CSS](css.md):** Class naming and writing selectors.
 - **[Sass](sass.md):** Writing Sass mixins.
 - **[Sass Variables](variables.md):** Writing settings variables.
