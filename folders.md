@@ -2,13 +2,15 @@
 
 All three Foundation frameworks should use a similar folder structure.
 
-- **config:** scss-lint, JSHint, and other config files.
 - **dist:** Distribution files for the most stable version.
 - **docs:** Documentation.
 - **js:** JavaScript.
 - **lib:** Any helper libraries needed to compile the documentation.
 - **scss:** Sass.
-- **spec/test:** Unit tests.
+- **test:** Unit tests.
+  - **sass:** Sass unit tests
+  - **js:** JavaScript unit tests
+  - **visual:** Visual regression tests
 
 These files are also common to every framework.
 
@@ -19,3 +21,5 @@ These files are also common to every framework.
 - **composer.json:** Composer package definition.
 - **package.js:** Meteor package definition.
 - **package.json:** npm package definition.
+- **.sass-lint.yml:** sass-lint config file.
+- **.eslintrc:** ESLint config file.

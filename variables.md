@@ -42,7 +42,7 @@ height        | height
 
 Avoid creating variables for individual facets of one property; use the shorthand versions instead. For example, create one variable for border instead of three.
 
-```
+```scss
 // Good
 $input-border: 1px solid #ccc;
 
@@ -50,6 +50,7 @@ $input-border: 1px solid #ccc;
 $input-border-width: 1px;
 $input-border-style: solid;
 $input-border-color: #ccc;
+```
 
 ## State
 
@@ -67,7 +68,7 @@ All variables should be documented with a description and type. Follow the [Sass
 ```scss
 /// Default background color for buttons.
 /// @type Color
-/// @since 6.1.0
+/// @since 6.1.0 Added.
 $button-background: $primary-color;
 ```
 
@@ -76,7 +77,7 @@ $button-background: $primary-color;
 To keep variable descriptions consistent, word it as if you're finishing the sentence "This variable sets the...".
 
 ```scss
-/// Default padding for buttons.
+/// Padding for buttons.
 $button-padding: 1rem;
 
 /// Background of the page.
@@ -108,6 +109,6 @@ If a variable is added after a major patch, note the version number it was added
 ```scss
 /// Default box shadow for buttons on hover.
 /// @type List
-/// @since 6.1.0
+/// @since 6.1.0 Added.
 $button-shadow-hover: 0 2px 10px rgba(#000, 0.15);
 ```

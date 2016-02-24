@@ -10,4 +10,10 @@
 
 ## File Contents
 
-- **Need standard for file-level comments.**
+At the top is a poster comment with copyright information.
+
+```scss
+// Foundation for Sites by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+```

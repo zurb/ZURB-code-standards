@@ -1,13 +1,10 @@
 # Mixins
 
+Sass mixins allow developers to create their own class structure out of our CSS. We also use mixins to cut down on repeated code for features like sizing, coloring, and so on.
+
 ## Types of Mixins
 
-Components mixins should be structured atomically, so each mixin implements one piece of the component's functionality. There's four broad categories of mixins:
-
-  - A base mixin with structural styles (`button-base()`)
-  - A layout mixin, which defines sizing and positioning (`button-layout()`)
-  - A style mixin, which defines visual styles (`button-style()`)
-  - A shorthand mixin, which references all of the above (`button()`)
+Components mixins should be structured atomically, so each mixin implements one piece of the component's functionality.
 
 More complex components may require more specific mixins, while simpler components may only need one or two.
 
@@ -25,9 +22,6 @@ Buttons are a good example of a component with a lot of simple, atomic mixins. E
 
 // Maps to .primary, .success, .error
 @mixin button-style {}
-
-// Combines all of the above
-@mixin button {}
 ```
 
 ## Parameters
@@ -39,7 +33,7 @@ If a mixin has more than one parameter, format it like this:
   $param,
   $param: value
 ) {
-  
+
 }
 ```
 
@@ -47,7 +41,7 @@ Otherwise, you can write it on one line:
 
 ```scss
 @mixin component($param) {
-  
+
 }
 ```
 

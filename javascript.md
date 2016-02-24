@@ -8,8 +8,10 @@ The plugin definition is wrapped in an immediately-invoked function expression, 
 
 Putting a negation operator (`!`) before a function forces it to execute, making it *slightly* more efficient, character-wise, than the other method of wrapping the function in parentheses.
 
+The IIFE also allows us to use the `$` variable for jQuery, even if jQuery is being used in no conflict mode.
+
 ```js
-!function(Foundation, $) {}(Foundation, jQuery)
+!function($) {}(jQuery)
 ```
 
 ### Class
@@ -18,6 +20,12 @@ A plugin is a single class.
 
 ```js
 function Plugin() {}
+```
+
+Or in ES6:
+
+```js
+class Plugin {}
 ```
 
 ### Constructor
@@ -33,6 +41,17 @@ function Plugin(element, options) {
 }
 ```
 
+Or in ES6:
+
+```js
+class Plugin() {
+  constructor(element, options) {
+    this.$element = element;
+    this.options = $.extend({}, Plugin.defaults, element.data(), options);
+  }
+}
+```
+
 The constructor should also call an `_init()` method, and if needed an `_events()` method, followed by a DOM event indicating that the plugin is done being initialized.
 
 ```js
@@ -43,6 +62,7 @@ function Plugin(element, options) {
   this._events();
   this.$element.trigger('init.zf.plugin');
 }
+```
 
 ### Prototype
 
@@ -101,26 +121,6 @@ The plugin constructor is added to the global `Foundation` object, allowing it t
 function Plugin(element, options) {}
 
 Foundation.Plugin = Plugin;
-```
-
-### Module loaders
-
-Specific code for module loaders is also included. This code will be ignored if a module loader is not being used.
-
-Browserify imitates the Node style of package loading. Assign the plugin's constructor to `module.exports` to expose it to the module loader.
-
-```js
-if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
-  module.exports = Plugin;
-```
-
-CommonJS uses the AMD pattern, where a module and its dependencies are defined with the `require` function. The plugin's name uses the format `foundation/[pluginName]`.
-
-```js
-if (typeof define === 'function')
-  define('foundation/plugin', ['jquery'], function($) {
-    return Plugin;
-  });
 ```
 
 ## Documentation
