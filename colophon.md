@@ -3,8 +3,10 @@ Meta information used for package managers (Bower, npm, etc.) should be consiste
 ## Author
 
 - **Name:** `ZURB`
-- **Homepage:** `http://zurb.com`
+- **Homepage:** `http://foundation.zurb.com`
 - **Email:** `foundation@zurb.com`
+
+The condensed format is `ZURB <foundation@zurb.com> (http://foundation.zurb.com)`
 
 ## Project
 
@@ -16,4 +18,10 @@ Meta information used for package managers (Bower, npm, etc.) should be consiste
 
 ## Tags
 
-*What tags should we use for the frameworks?*
+Use these terms in a `tags` or `keywords` field:
+
+- responsive
+- front-end
+- framework
+- apps (with Foundation for Apps)
+- emails (with Foundation for Emails)
