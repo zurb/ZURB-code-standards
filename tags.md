@@ -1,6 +1,6 @@
 # Issue Tags
 
-The Foundation frameworks should all use these issue labels. The smaller libraries can use the basic issue set.
+The Foundation frameworks should all use these issue labels. The smaller libraries can use the basic issue set that GitHub includes by default.
 
 **Issue type:**
 

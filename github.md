@@ -14,7 +14,19 @@ For libraries, the readme will contain installation and usage instructions. Larg
 
 ## Issue Templates
 
+The frameworks should have an issue template under `/.github/ISSUE_TEMPLATE.md` and a pull request template under `/.github/PULL_REQUEST_TEMPLATE.md`. The specific contents will vary between the three frameworks. The [issue template](https://github.com/zurb/foundation-sites/blob/develop/.github/ISSUE_TEMPLATE.md) and [pull request template](https://github.com/zurb/foundation-sites/blob/develop/.github/PULL_REQUEST_TEMPLATE.md) for Foundation for Sites provide a good model.
 
+The issue template should:
+
+- Recommend using the Foundation Forum for support requests.
+- Ask the user to list the steps needed to reproduce the bug.
+- Ask the user what they expected to happen, and what actually happened.
+- Encourage the user to link to a CodePen or JSFiddle recreating the issue.
+
+The pull request template should:
+
+- Tell the user which branch to target (e.g., stable, development, old version).
+- Encourage the user to write a unit/visual test showing the issue has been fixed.
 
 ## Contributing
 
