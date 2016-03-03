@@ -7,6 +7,8 @@
   - Example: `<a>`
 - Format classes as code, with a leading period.
   - Example: `.secondary`
+- Format IDs as code, with a leading hash.
+  - Example: `#container`
 - Be explicit when referring to classes or attributes to add to an element.
   - Example: "Add the `.large` *class* to a button to make it larger."
   - Example: "Add the `data-equalize` *attribute* to the container element."
