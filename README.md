@@ -7,18 +7,24 @@ This collection of standards informs how we build the Foundation family. ZURBian
 ### General
 
 - **[Libraries](libraries.md):** The open source projects that make up the Foundation family.
-- **[GitHub](github.md):** Files to include in every GitHub repo.
 - **[Documentation](documentation.md):** Language for referring to the various elements of HTML, CSS, and JavaScript.
 
 ### Code
 
-- **[Components](components.md):** Naming components and structuring files.
-- **[CSS](css.md):** Class naming and writing selectors.
+- **[Class Naming](class-naming.md):** Class naming and writing selectors.
 - **[Sass](sass.md):** Writing Sass mixins.
 - **[Sass Variables](variables.md):** Writing settings variables.
+- **[Sass Mixins](mixins.md):** Writing Sass mixins.
 - **[JavaScript](javascript.md):** Writing JavaScript plugins.
+- **[Folder Structure](folders.md):** Folder structure for codebases.
+- **[Colophon](colophon.md):** Common metadata to use in package files.
 
-### Linters
+### GitHub
+
+- **[GitHub Files](github.md):** Files to include in every GitHub repo.
+- **[Issue Tags](tags.md):** GitHub issues tags to use for major projects.
+
+### Config Files
 
 - **[scss-lint Config](.scss-lint.yml):** Standard config file for scss-lint.
 - **[eslint Config](.eslintrc):** Standard config file for eslint.
