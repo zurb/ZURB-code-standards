@@ -18,6 +18,26 @@ _media-object.scss
 _tabs.scss
 ```
 
+## Class Naming
+
+ZURB follows a specific CSS class style guide. Refer to the [class naming](class-naming.md) page to learn more.
+
+## Nesting
+
+Sass makes it easy to nest, but avoid nesting CSS too deeply, as this makes for more complex selectors that will be more likely to interfere with other CSS down the road.
+
+Follow the Inception Rule: *don't go more than three levels deep*. This amount of nesting is too much:
+
+```scss
+.element {
+  .element-child {
+    p {
+      a {}
+    }
+  }
+}
+```
+
 ## File structure
 
 The elements of the component should go in this order:

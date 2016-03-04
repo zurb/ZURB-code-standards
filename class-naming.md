@@ -1,6 +1,4 @@
-# CSS
-
-## Class naming
+# Class Naming
 
 ZURB's class style is focused on readability. Here are guidelines to follow when writing CSS for Foundation.
 
