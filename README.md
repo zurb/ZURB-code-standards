@@ -20,5 +20,5 @@ This collection of standards informs how we build the Foundation family. ZURBian
 
 ### Linters
 
-- **[scss-lint Config](scss-lint.yml):** Standard config file for scss-lint.
-- **[JSHint Config](jsHintConfig):** Standard config file for JSHint.
+- **[scss-lint Config](.scss-lint.yml):** Standard config file for scss-lint.
+- **[eslint Config](.eslintrc):** Standard config file for eslint.
