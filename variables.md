@@ -1,4 +1,14 @@
-Foundation for Apps has many, many settings variables, so it's important that we write them the same way to keep things consistent.
+# Sass Variables
+
+Each Foundation framework has several hundred settings variables, so it's important that they're named consistently.
+
+## Building a Settings File
+
+We use our custom [Octophant](https://github.com/zurb/octophant) library to generate the settings file.
+
+New settings files are only generated once per patch, right before a release is tagged.
+
+For Octophant to work, variables must be annotated with SassDoc&mdash;this is explained in ["Documentation"](#documentation) below.
 
 ## Hierarchy
 
