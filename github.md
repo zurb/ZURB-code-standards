@@ -30,7 +30,13 @@ The pull request template should:
 
 ## Contributing
 
-- **Need standard for contributing document.**
+The major frameworks should have a formal contributing document, which outlines how developers are brought on as team members, policies for submitting pull requests, and so on.
+
+**Example:** [contributing.md on Foundation for Sites](https://github.com/zurb/foundation-sites/blob/develop/CONTRIBUTING.md)
+
+Along with this, the major frameworks should also have a Code of Conduct. We have a custom one adapted from the Contributor Convenant.
+
+**Example:** [code-of-conduct.md on Foundation for Sites](https://github.com/zurb/foundation-sites/blob/develop/code-of-conduct.md)
 
 ## License
 
