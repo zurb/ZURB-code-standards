@@ -4,15 +4,15 @@ These are the libraries that comprise the Foundation family.
 
 ## Frameworks
 
-### Foundation for Sites
+### [Foundation for Sites](https://github.com/zurb/foundation-sites)
 
 Framework for creating responsive websites. First launched in 2011, currently on version 6.
 
-### Foundation for Apps
+### [Foundation for Apps](https://github.com/zurb/foundation-apps)
 
 Framework for creating responsive web apps. First launched in 2014, currently on version 1. Powered by AngularJS.
 
-### Foundation for Emails
+### [Foundation for Emails](https://github.com/zurb/foundation-emails)
 
 Framework for creating responsive HTML emails. First launched in 2013, currently on version 2. Powered by a custom templating engine.
 
@@ -69,3 +69,5 @@ Node- and SassDoc-powered parser that aggregates settings variables from Sass fi
 ### [Docs Template](https://github.com/zurb/foundation-docs)
 
 The standard template used in the documentation for all frameworks. Also includes a custom Markdown renderer, a set of Handlebars functions for formatting documentation data, and the CSS used for all documentation-specific code.
+
+**Used by:** Sites, Apps, Emails
