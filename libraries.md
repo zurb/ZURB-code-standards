@@ -18,7 +18,7 @@ Framework for creating responsive HTML emails. First launched in 2013, currently
 
 ## Libraries
 
-### [Supercollider](https://github.com/gakimball/supercollider)
+### [Supercollider](https://github.com/zurb/supercollider)
 
 A documentation generator that pulls in documentation from Markdown files, JSDoc, and SassDoc, and compiles it into a series of HTML files using Handlebars templates.
 
