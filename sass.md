@@ -49,17 +49,13 @@ The elements of the component should go in this order:
 
 ### Using calc()
 
-Avoid using calc() with arbirary values. calc() in conjunction with variables is much more readable and maintainable.
-
-Bad
+Avoid using calc() with arbitrary values. calc() in conjunction with variables is much more readable and maintainable.
 
 ```scss
+/* Bad */
 calc(100vh - 150px);
-```
 
-Good
-
-```scss
+/* Good */
 calc(100vh - #{$main-nav-height});
 ```
 
