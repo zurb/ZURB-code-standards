@@ -47,7 +47,7 @@ The elements of the component should go in this order:
 - Sass mixins
 - CSS output
 
-### Using calc()
+## Using calc()
 
 Avoid using calc() with arbitrary values. calc() in conjunction with variables is much more readable and maintainable.
 
