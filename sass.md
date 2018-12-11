@@ -59,6 +59,16 @@ calc(100vh - 150px);
 calc(100vh - #{$main-nav-height});
 ```
 
+## Custom breakpoints
+
+Create a custom variable for a custom breakpoint. Then use the variable the breakpoint mixin so that it will be applied to all instances of your custom breakpoint.
+
+```scss
+@include breakpoint($split-screen-breakpoint) {
+  max-width: $take-content-max-width;
+}
+```
+
 ### Poster comment
 
 At the top is a poster comment with copyright information.
