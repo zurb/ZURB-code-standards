@@ -47,6 +47,22 @@ The elements of the component should go in this order:
 - Sass mixins
 - CSS output
 
+### Using calc()
+
+Avoid using calc() with arbirary values. calc() in conjunction with variables is much more readable and maintainable.
+
+Bad
+
+```scss
+calc(100vh - 150px);
+```
+
+Good
+
+```scss
+calc(100vh - #{$main-nav-height});
+```
+
 ### Poster comment
 
 At the top is a poster comment with copyright information.
